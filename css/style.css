@@ -1,0 +1,269 @@
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 10px 0 10px;
+  line-height: 120%;
+}
+
+p {
+  margin: 0;
+  line-height: 180%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-product {
+  display: flex;
+  gap: 16px; /* Adjust the gap value according to your design */
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.nav-space {
+  margin: 0 1.5%;
+}
+
+.nav-brand {
+  font-family: "Dancing Script", cursive;
+}
+.nav-brand h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-contact a {
+  text-decoration: none;
+}
+
+.nav-product a {
+  text-decoration: none;
+}
+
+.text-dark {
+  color: black;
+}
+
+.btn {
+  background: black;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: white;
+}
+
+.col1 {
+  width: 5.3333333333%;
+  margin: 1.5%;
+}
+
+.col2 {
+  width: 13.6666666667%;
+  margin: 1.5%;
+}
+
+.col3 {
+  width: 22%;
+  margin: 1.5%;
+}
+
+.col4 {
+  width: 30.3333333333%;
+  margin: 1.5%;
+}
+
+.col5 {
+  width: 38.6666666667%;
+  margin: 1.5%;
+}
+
+.col6 {
+  width: 47%;
+  margin: 1.5%;
+}
+
+.col7 {
+  width: 55.3333333333%;
+  margin: 1.5%;
+}
+
+.col8 {
+  width: 63.6666666667%;
+  margin: 1.5%;
+}
+
+.col9 {
+  width: 72%;
+  margin: 1.5%;
+}
+
+.col10 {
+  width: 80.3333333333%;
+  margin: 1.5%;
+}
+
+.col11 {
+  width: 88.6666666667%;
+  margin: 1.5%;
+}
+
+.col12 {
+  width: 97%;
+  margin: 1.5%;
+}
+
+@media screen and (max-width: 480px) {
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .col4 {
+    width: 100%;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .col7 {
+    width: 100%;
+  }
+  .col8 {
+    width: 100%;
+  }
+  .col9 {
+    width: 100%;
+  }
+  .col10 {
+    width: 100%;
+  }
+  .col11 {
+    width: 100%;
+  }
+  .col12 {
+    width: 100%;
+  }
+}
+.img-responsive {
+  width: 100%;
+}
+
+.img-radius {
+  border-radius: 20px;
+}
+
+.icon64 {
+  width: 64px;
+}
+
+.img-size-product {
+  width: 100%; /* Gambar mengisi lebar parent (container) */
+  height: auto; /* Menjaga rasio aspek gambar */
+  max-width: 300px; /* Maksimum lebar gambar */
+  display: block; /* Menghilangkan whitespace di sekitar gambar */
+  margin: 0 auto;
+}
+
+.header {
+  background: rgb(6, 112, 119);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.spacer2 {
+  padding: 5% 0;
+}
+
+.product h3 {
+  margin: 5px 0;
+}
+
+.product-view {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* style.css */
+.card {
+  border-radius: 20px;
+}
+
+.card-header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body {
+  height: 225px;
+}
+
+textarea {
+  background-color: #ffffff;
+  border: 0;
+  resize: none;
+  padding: 100px;
+  margin: 0;
+  overflow: auto;
+}
+
+/* style.css */
+/* Apply styles to form-control class */
+.form-control {
+  /* Add your styles here */
+  border: 5px solid #ced4da;
+  border-radius: 1rem;
+  padding: 5rem 5rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* Apply styles to card-text class */
+.card-text {
+  /* Add your styles here */
+  color: #080000;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.franchise {
+  background: rgb(6, 112, 119);
+}
+.franchise .fc-desc {
+  color: #fffefe;
+}
+.franchise .fc-desc h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.franchise .fc-desc .btn {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */

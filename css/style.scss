@@ -1,0 +1,183 @@
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    margin: 10px 0 10px;
+    line-height: 120%;
+}
+p{
+   margin: 0;
+    line-height: 180%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-product{
+    display: flex;
+    gap: 16px; /* Adjust the gap value according to your design */
+}
+.ai-center{
+    align-items: center;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+
+//navigation
+.nav-space{
+    margin: 0 1.5%;
+}
+.nav-brand{
+    font-family: 'Dancing Script', cursive;
+    h1{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.nav-contact{
+    a{
+        text-decoration: none;
+    }
+}
+.nav-product{
+    a{
+        text-decoration: none;;
+    }
+}
+.text-dark{
+    color: black;
+}
+.btn{
+    background: black;
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: white;
+}
+
+//making grid system
+@for $i from 1 through 12 {
+    .col#{$i} {
+        width: (100% / (12 / $i)) - 3%;
+        margin: 1.5%;
+    }
+}
+
+@media screen and (max-width:480px){
+    @for $i from 1 through 12{
+        .col#{$i}{
+            width: 100%
+        }
+    }
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-radius{
+    border-radius: 20px;
+}
+.icon64{
+    width: 64px;
+}
+.img-size-product{
+    width: 100%; /* Gambar mengisi lebar parent (container) */
+    height: auto; /* Menjaga rasio aspek gambar */
+    max-width: 300px; /* Maksimum lebar gambar */
+    display: block; /* Menghilangkan whitespace di sekitar gambar */
+    margin: 0 auto;
+}
+
+//Header
+.header{
+    background: rgb(6, 112, 119);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+//spacer
+.spacer2{
+    padding: 5% 0;
+}
+
+//product
+.product h3{
+    margin: 5px 0;
+}
+.product-view{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+/* style.css */
+
+.card {
+    border-radius: 20px;
+}
+
+.card-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-body {
+    height: 225px;
+}
+
+textarea {
+    background-color: #ffffff;
+    border: 0;
+    resize: none;
+    padding: 100px;
+    margin: 0;
+    overflow: auto;
+}
+/* style.css */
+
+/* Apply styles to form-control class */
+.form-control {
+    /* Add your styles here */
+    border: 5px solid #ced4da;
+    border-radius: 1rem;
+    padding: 5rem 5rem;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+/* Apply styles to card-text class */
+.card-text {
+    /* Add your styles here */
+    color: #080000;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+//franchise
+.franchise{
+    background: rgb(6, 112, 119);
+    .fc-desc{
+        h2{
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .btn{
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        color: #fffefe;
+    }
+}
