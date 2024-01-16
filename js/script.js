@@ -42,10 +42,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // Track views for each product
     trackProductViews(1, "product1Image");
     trackProductViews(2, "product2Image");
+    trackProductViews(3, "product2Image");
+    trackProductViews(4, "product2Image");
 
     // Add more products and track views as needed
 });
 
 
 // Reset View
-localStorage.setItem("viewCount1", 0);
+//localStorage.setItem("viewCount1", 0);

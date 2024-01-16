@@ -1,5 +1,5 @@
 .container{
-    max-width: 1200px;
+    max-width: 900px;
     width: 90%;
     margin: 0 auto;
     
@@ -16,6 +16,9 @@ p{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+.row-spacing{
+    height: 300px;
 }
 .row-product{
     display: flex;
@@ -111,17 +114,6 @@ p{
     padding: 5% 0;
 }
 
-//product
-.product h3{
-    margin: 5px 0;
-}
-.product-view{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 20px;
-}
 /* style.css */
 
 .card {
@@ -168,6 +160,7 @@ textarea {
 //franchise
 .franchise{
     background: rgb(6, 112, 119);
+    padding: 10px;
     .fc-desc{
         h2{
             font-size: 2.5em;
@@ -180,4 +173,16 @@ textarea {
         }
         color: #fffefe;
     }
+}
+
+//product
+.product h3{
+    margin: 5px 0;
+}
+.product-view{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
 }

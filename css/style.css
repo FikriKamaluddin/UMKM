@@ -1,5 +1,5 @@
 .container {
-  max-width: 1200px;
+  max-width: 900px;
   width: 90%;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
@@ -18,6 +18,10 @@ p {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.row-spacing {
+  height: 300px;
 }
 
 .row-product {
@@ -198,18 +202,6 @@ p {
   padding: 5% 0;
 }
 
-.product h3 {
-  margin: 5px 0;
-}
-
-.product-view {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
 /* style.css */
 .card {
   border-radius: 20px;
@@ -254,6 +246,7 @@ textarea {
 
 .franchise {
   background: rgb(6, 112, 119);
+  padding: 10px;
 }
 .franchise .fc-desc {
   color: #fffefe;
@@ -266,4 +259,16 @@ textarea {
   display: inline-block;
   text-decoration: none;
   margin-top: 20px;
+}
+
+.product h3 {
+  margin: 5px 0;
+}
+
+.product-view {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
